@@ -1,0 +1,40 @@
+.player-wrapper {
+  position: relative;
+  padding-top: 390px; /* Player ratio: 100 / (1280 / 720) key455*/
+  z-index: 0 ;
+  top: -390px;
+  margin: -20px;
+}
+.react-player {
+  width: 100%;
+}
+.title {
+  font-size: 80px;
+  background-color: transparent;
+  color: white;
+  z-index: 9;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  padding-top: 390px;
+}
+
+
+@media (max-width: 640px) {
+  .player-wrapper {
+  overflow: hidden;
+  padding-top: 535px;
+  }
+  .react-player {
+    overflow: hidden;
+    padding-top: 50px;
+    transform: scale(2.0) ;
+  }
+  .title {
+  // display: none;
+  position: absolute;
+  font-size: 30px;
+  }
+};
+

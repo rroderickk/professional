@@ -1,0 +1,116 @@
+@use "../../vars";
+
+/* View header */
+body {
+	margin: 0;
+	font-family:var(--noto);
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+.nav-body {
+	position: fixed;
+  width: 100%;
+  min-width: 980px;
+  z-index: 99;
+  --above-all-in-container: 10000;
+	background-color:transparent;
+	display: flex;
+	justify-content: space-between;
+	// border-bottom: 0.1px solid var(--very-light-pink);
+	/* GlassmorPhism */
+	border-radius: 1px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	/* From https://css.glass */
+	// border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+.icon-menu {
+	display: none;
+}
+// .header-logo {
+// 	display: flex;
+// }
+.header-logo >img {
+	display: 100%;
+}
+.navbar-left ul,
+.navbar-right ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	height: 60px;
+}
+.navbar-left {
+	display: flex;
+}
+.navbar-left ul {
+	margin-left: 12px;
+}
+.navbar-left ul li a,
+.navbar-right ul li a {
+	text-decoration: none;
+	color: var(--very-light-pink);
+	padding: 8px;
+	border-radius: 4px;
+}
+.navbar-left ul li a:hover,
+.navbar-right ul li a:hover {
+	border: 1px solid var(--hospital-green);
+	color: var(--hospital-green);
+}
+.navbar-email {
+	color: var(--very-light-pink);
+	font-size: var(--sm);
+	margin-right: 12px;
+}
+.navbar-asside {
+	position: relative;
+}
+.navbar-asside div {
+	width: 6px;
+	height: 6px;
+	background-color: var(--hospital-green);
+	border-radius: 50%;
+	font-size: var(--sm);
+	font-weight: bold;
+	position: absolute;
+	top: -6px;
+	right: -3px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.navbar-asside > img {
+	width: 44px;
+	transform: scale(1.3) translate(-130%, 0%);
+};
+#logomenu {
+	cursor: pointer;
+	transform: scale(1.5) translate(-18%, 40%);
+	margin: 80px 20px 0 20px;
+	padding: 0% 9%;
+}
+#logomenu:hover {
+	cursor: pointer;
+	box-shadow: 0 0 .5rem #fff, inset 0 0 .5rem #fff, 0 0 2rem crimson;
+	border-radius: 7%;
+}
+
+@media (max-width: 640px) {
+	.icon-menu {
+		display: none;
+	}
+	.navbar-left ul {
+		display: none;
+	}
+	.navbar-email {
+		display: none;
+	}
+}
