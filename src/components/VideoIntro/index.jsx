@@ -1,5 +1,5 @@
 import React from "react";
-import video from "./voladura 08.09.17_Trim_Slomo.mp4";
+import video from "./voladura_08.09.17_Trim_Slomo.mp4";
 import ReactPlayer from "react-player";
 import "./VideIntro.scss";//*(@)|==>styles;
 

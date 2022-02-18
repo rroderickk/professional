@@ -25,4 +25,5 @@ const BannerHorizontal =({props, color, height})=> { return ( <>
   </div>
 </div>
 <p id="granSize">{props.granSize}</p>
+<p id="ourproject">{props.ourproject}</p>
 </> ) }; export { BannerHorizontal };

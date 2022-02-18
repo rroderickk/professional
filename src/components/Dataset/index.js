@@ -14,22 +14,7 @@ direccionV: "VALLEDUPAR OFFICE",
     correo: "rroderickk@gmail.com",
     badcat: "SOCIAL",
     SOCIAL: "@CheatModes4",
-}
-const info2 = {
-cell: "",
-    nombre: "",
- direccion: "",
   granSize: "Welcome, we are volminex professionals in explosives and production and controlled blasting.",
-direccionV: "",
-  Entrega1: "",
-    social: "",
-   twitter: "",
- instagram: "",
-       wix: "",
-  linkedin: "",
-  github  : "",
-    correo: "",
-    badcat: "",
-    SOCIAL: "",
+ourproject: "Our Projects",
 }
-export { info, info2 };
+export { info };
