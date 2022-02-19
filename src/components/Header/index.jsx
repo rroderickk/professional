@@ -26,11 +26,11 @@ return ( <> <div className="nav-body">
   <ul>
     <li className="navbar-email">rroderickk@gmail.com </li>
     <li className="navbar-asside">
-      <img className="logomenu" id="logomenu" src={logomenu} onClick={handleToggle} alt="menu"/>
-                                                                    {toggle&&<SideBar/>}
+      <img id="logomenu" src={logomenu} onClick={handleToggle} alt="menu"/>
+                                            {toggle&&<SideBar/>}
     </li>
     <li className="navbar-asside">
-      <img src={logor} alt="logor"/> 
+      <img src={logor} alt="logor" id="logor"/> 
     </li>
   </ul>
 </div>

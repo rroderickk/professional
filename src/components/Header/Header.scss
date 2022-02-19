@@ -105,16 +105,26 @@ body {
 
 @media (max-width: 640px) {
 	.nav-body {
-		min-width: none;
-		margin: 20px;
-		outline: 1px solid red;
-		display: block;
+		min-width: 90%;
+		margin-left: 20px;
+		margin-right: 20px;
+		// outline: 1px solid red;
+		width: 20%;
+		display: inline-block;
 	}
 	.icon-menu { display: none; }
 	.navbar-left ul { display: none; }
 	.navbar-email { display: none; }
+
 	.navbar-asside {
 		display: inline;
 		transform: 0;
+	}
+	.navbar-asside #logor {
+		display: none;
+		transform: 0;
+	}
+	.navbar-asside #logomenu {
+		transform: scale(1.5) translate(420%, -88%);
 	}
 };

@@ -10,7 +10,7 @@ const VideoIntro =()=> { return (<>
 <ReactPlayer 
   className='react-player' 
   url={video} 
-  playing loop 
+  // playing loop 
   controls={true}
   muted 
   width="100%"
