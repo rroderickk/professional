@@ -2,7 +2,7 @@
 	"name": "professional",
 	"version": "0.0.1",
 	"description": "javascript professional",
-	"homepage": "https://rroderickk.github.io/videoplayer",
+	"homepage": "https://rroderickk.github.io/professional",
 	"main": ".src/index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",

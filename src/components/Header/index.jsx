@@ -7,12 +7,12 @@ import { AppContext } from "@context/AppContext";
 import { SideBar }    from "@containers/SideBar";
 import "./Header.scss"; //*(@)|==>styles;
 
-const Header                                                        =( )=> {
+const Header /**=========================================*/  =( )=> {
 const [toggle, setToggle] = useState(false);
 const {     state       } = useContext(AppContext);
-const handleToggle    =( )=> setToggle(!toggle);
-
 const [toggleOrders, setToggleOrders] = useState(false);
+const    handleToggle   =( )=> setToggle(!toggle);
+
 return ( <> <div className="nav-body">
 <img src={logoright} alt="menu" className="icon-menu"/>
 <div className="navbar-left">

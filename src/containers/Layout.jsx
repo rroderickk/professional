@@ -6,10 +6,11 @@ const styleLayout = {
   textAlign: "center", 
   backgroundColor: "#000",
   fontFamily: "Coolvetica",
-  minHeight: "100vh" ,
-  padding: "20px",
-  boxSizing: "border-box",
-  maxWidth: "100vp",
+  minHeight: "100%" ,
+  padding: "40px", //!20
+  maxWidth: "100%",
+  minWidth: "100vp",  
+  flexDirection: "column",
   textShadow: "1px 1px 1px crimson"/* rgba(0,0,0,0.004) */,
 };
 

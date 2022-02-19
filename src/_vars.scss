@@ -17,3 +17,16 @@
 	--lobster: 'Lobster Two', cursive;
 	--roboto: 'Roboto', sans-serif;
 };
+																																							/* Box Size */
+* {
+	padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+}
+																																								/* Reset Styles */
+html {
+	// font-size: 62.5%;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);/* rgba(0,0,0,0.004) */
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}

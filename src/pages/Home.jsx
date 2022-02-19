@@ -5,7 +5,7 @@ import { info } from "../components/Dataset";
 const Home =()=> { return ( <> 
 
 <VideoIntro/>
-<BannerHorizontal  props={info}/>
+<BannerHorizontal props={info}/>
 
 <h1 style={{marginTop:"990px"}}>OurProjects</h1>
 <h1>Biografia</h1>
