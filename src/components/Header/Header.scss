@@ -104,13 +104,17 @@ body {
 }
 
 @media (max-width: 640px) {
-	.icon-menu {
-		display: none;
+	.nav-body {
+		min-width: none;
+		margin: 20px;
+		outline: 1px solid red;
+		display: block;
 	}
-	.navbar-left ul {
-		display: none;
+	.icon-menu { display: none; }
+	.navbar-left ul { display: none; }
+	.navbar-email { display: none; }
+	.navbar-asside {
+		display: inline;
+		transform: 0;
 	}
-	.navbar-email {
-		display: none;
-	}
-}
+};

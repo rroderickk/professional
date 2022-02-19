@@ -7,13 +7,13 @@
   text-align: center;
   align-self: center;
   color: black;
-  // width: 100%;
   top: -390px;
   z-index: 9;
-  // margin-right: 40px;
   padding: 20px;
   left: -20px;
   margin-right: -40px;
+  // width: 100%;
+  // margin-right: 40px;
   // // outline: 4px solid red; 
   // padding-left: 10px;
   // margin: 20px;
@@ -24,16 +24,16 @@
   justify-content: center;
   align-self: center;
   align-items: center;
-  // outline: 4px solid red; 
   flex-direction: column;
   width: 100%;
+  // outline: 4px solid red; 
 }
 .tree-column > p {
-  font-size: 19px;
+  font-size: 12px;
   margin: 4px;
 }
 .tree-column :nth-child(1) {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 900;
 }
 #granSize {
@@ -41,10 +41,13 @@
   font-family: var(--notos);
   background-color: black;
   color: white;
-  font-weight: 900;
+  font-weight: 100;
   font-size: 48px;
   margin-top: -400px;
   padding-top: 40px;
+  padding: 60px;
+  padding-right: 180px;
+  padding-left: 180px;
   margin-bottom: 40px;
   position: relative;
   left: -20px;
@@ -94,6 +97,8 @@
     padding-top: 0;
     padding-bottom: 22px;
     margin-bottom: -3rem;
+    padding-left: 18px;
+    padding-right: 18px;
   }
   #ourproject {
     font-family: var(--notos);

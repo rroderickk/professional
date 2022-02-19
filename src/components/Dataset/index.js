@@ -14,7 +14,7 @@ direccionV: "VALLEDUPAR OFFICE",
     correo: "rroderickk@gmail.com",
     badcat: "SOCIAL",
     SOCIAL: "@CheatModes4",
-  granSize: "Welcome, we are volminex professionals in explosives and production and controlled blasting.",
+  granSize: "Welcome, we are VOLMINEX professionals in explosives and production and controlled blasting.",
 ourproject: "Our Projects",
 }
 export { info };
