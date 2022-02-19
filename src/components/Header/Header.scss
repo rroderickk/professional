@@ -105,11 +105,11 @@ body {
 
 @media (max-width: 640px) {
 	.nav-body {
-		min-width: 90%;
-		margin-left: 20px;
-		margin-right: 20px;
-		// outline: 1px solid red;
+		min-width: 100%;
+		// margin-left: 20px;
+		// margin-right: 20px;
 		width: 20%;
+		background-color: transparent;
 		display: inline-block;
 	}
 	.icon-menu { display: none; }
@@ -125,6 +125,6 @@ body {
 		transform: 0;
 	}
 	.navbar-asside #logomenu {
-		transform: scale(1.5) translate(420%, -88%);
+		transform: scale(1.5) translate(0%, -88%);
 	}
 };

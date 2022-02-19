@@ -7,7 +7,7 @@ const styleLayout = {
   backgroundColor: "#000",
   fontFamily: "Coolvetica",
   minHeight: "100%" ,
-  padding: "40px", //!20
+  padding: "20px", //!20
   maxWidth: "100%",
   minWidth: "100vp",  
   flexDirection: "column",

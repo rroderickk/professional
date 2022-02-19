@@ -3,7 +3,7 @@ import "./BannerHorizontal.scss"; //*(@)|==>styles;
 
 const BannerHorizontal =({props, color, height})=> { return ( <>
 <div className="BannerHorizontal-container">
-  <div className="tree-column">
+  <div id="uno" className="tree-column">
     <p>{props.direccionS}</p>
     <p>{props.direccion} </p>
     <p>{props.cell}      </p>
