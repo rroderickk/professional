@@ -1,0 +1,36 @@
+.projectContainer{
+  // outline: 2px solid red;
+  height: 291px;
+  overflow: hidden;
+  p{
+    display: none;
+  }
+}
+.projectContainer .img-project-container img{
+  border-top: 1px solid black;
+  // outline: 2px solid red;
+  width: 100%;
+  overflow: hidden;
+}
+h2{
+  // outline: 2px solid green;
+  color: var(--text-input-field);
+  font-weight: bold;
+  font-size: 2.0rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: relative;
+  top: -100px;
+  margin: -80px 0;
+  text-shadow: 1px 1px 1px black;
+}
+a{
+  margin-right: 8px;
+  font-size: 1.2rem;
+  margin: 4px 0;
+  color: white;
+}
+img{
+  position: relative;
+}

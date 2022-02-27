@@ -1,10 +1,10 @@
-import React from "react";
+import 	 React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { AppContext } from "@context/AppContext";
+import { AppContext 		 } from "@context/AppContext";
 import { useInitialState } from "@hooks/useInitialState";
-import { Layout } from "@containers/Layout";
-import { Home } from "../pages/Home";
-import { NotFound } from "@pages/NotFound";
+import { Layout 				 } from "@containers/Layout";
+import { Home 					 } from "../pages/Home";
+import { NotFound 			 } from "@pages/NotFound";
 
 const App = () => {
 const initialState = useInitialState();
