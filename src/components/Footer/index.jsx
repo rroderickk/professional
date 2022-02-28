@@ -5,6 +5,7 @@ const styles = {
   fontFamily: "var(--lobster)",
   textShadow: "none",
   lineHeight: "40px",
+  color: "white",
   paddingTop: "40px"
 };
 
