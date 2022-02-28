@@ -33,23 +33,25 @@
     gap: 2px;
     padding-bottom: 40px;
     background-Color: rgba(255, 239, 15);
+  
     // display: grid; //todo wrapping this baby
     // grid-template-columns: repeat(3, 1fr);
     // grid-auto-rows: 200px;
   }
   .our-services-container{
-    border: 2px solid black;
     border-radius: 4px;
     height: 200px;
     max-height: 300px;
     justify-content: center;
     margin: 4px 4px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    background: var(--off-white);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
   }
   .our-services-container :nth-child(1){
     width: 100%;
     height: 100%;
   }
-
   .wrapping :nth-child(7){
     display: none;
   }

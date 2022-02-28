@@ -12,19 +12,19 @@ const Services =(props)=> { return ( <>
     <img src={props.ban2} alt="service2"/>
   </div>
   <div className="our-services-container">
-    <img src={props.ban4} alt="service2"/>
+    <img src={props.ban4} alt="service3"/>
   </div>
   <div className="our-services-container">
-    <img src={props.ban3} alt="service2"/>
+    <img src={props.ban3} alt="service4"/>
   </div>
   <div className="our-services-container">
-    <img src={props.ban5} alt="service2"/>
+    <img src={props.ban5} alt="service5"/>
   </div>
   <div className="our-services-container">
-    <img src={props.ban6} alt="service2"/>
+    <img src={props.ban6} alt="service6"/>
   </div>
   <div className="our-services-container">
-    <img src={props.ban7} alt="service2"/>
+    <img src={props.ban7} alt="service7"/>
   </div>
 </div>
 </div>

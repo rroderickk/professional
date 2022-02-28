@@ -30,24 +30,31 @@ import serv7 from "@components/ProjectBan/dataProjects/pro1/serv7.png";
 const Home =()=> { return ( <> 
 <VideoIntro/>
 <BannerHorizontal props={info}/>
-<div className="wrapper">
-  <ProjectBan num="1" bg={ban1} title="Capitanejo K12" top="-50px"/>
-  <ProjectBan num="2" bg={ban2} title="Capitanejo K8"  top="-50px"/>
-  <ProjectBan num="3" bg={ban3} title="Capitanejo K12" top="-40px"/>
-  <ProjectBan num="4" bg={ban4} title="Desvío K15"     top="-70px"/>
-  <ProjectBan num="5" bg={ban5} title="Capitanejo K12" top="0px"  />
-  <ProjectBan num="6" bg={ban6} title="Capitanejo K12" top="0px"  />
-  <ProjectBan num="7" bg={ban7} title="Capitanejo K12" top="-60px"/>
+<div className="projectBan-container">
+  <div className="wrapper">
+    <ProjectBan num="1" bg={ban1} title="Capitanejo K12" top="-50px"/>
+  </div>
+  <div className="wrapper">
+    <ProjectBan num="2" bg={ban2} title="Capitanejo K8"  top="-50px"/>
+  </div>
+  <div className="wrapper">
+    <ProjectBan num="3" bg={ban3} title="Capitanejo K12" top="-40px"/>
+  </div>
+  <div className="wrapper">
+    <ProjectBan num="4" bg={ban4} title="Desvío K15"     top="-70px"/>
+  </div>
+  <div className="wrapper">
+    <ProjectBan num="5" bg={ban5} title="Capitanejo K12" top="0px"  />
+  </div>
+  <div className="wrapper">
+    <ProjectBan num="6" bg={ban6} title="Capitanejo K12" top="0px"  />
+  </div>
+  <div className="wrapper">
+    <ProjectBan num="7" bg={ban7} title="Capitanejo K12" top="-60px"/>
+  </div>
 </div>
 <Our/>
-<Services 
-  ban1={serv1}
-  ban2={serv2}
-  ban3={serv3} 
-  ban4={serv4}
-  ban5={serv5} 
-  ban6={serv6} 
-  ban7={serv7}/>
+<Services ban1={serv1} ban2={serv2} ban3={serv3} ban4={serv4} ban5={serv5} ban6={serv6} ban7={serv7}/>
 <WeAre/>
 <Footer/>
 </> ); }; export { Home };

@@ -1,13 +1,14 @@
 .projectContainer{
   // outline: 2px solid red;
   height: 291px;
+  min-width: 500px;
   overflow: hidden;
   p{
     display: none;
   }
 }
 .projectContainer .img-project-container img{
-  border-top: 1px solid black;
+  // border-top: 1px solid black;
   // outline: 2px solid red;
   width: 100%;
   overflow: hidden;
@@ -33,4 +34,24 @@ a{
 }
 img{
   position: relative;
+}
+@media screen and (min-width: 890px){
+  h2{
+    min-width: 230px;
+    padding-top: 10px;
+    padding-right: 80px;
+  }
+}
+@media screen and (min-width: 900px){
+  .projectContainer .img-project-container img{
+    min-width: 230px;
+    border: none;
+    min-width: 436px;
+  }
+  h2{
+    min-width: 230px;
+    padding-top: 40px;
+    padding-right: 80px;
+  }
+  a{ min-width: 230px; }
 }
