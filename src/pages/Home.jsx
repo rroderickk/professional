@@ -3,6 +3,9 @@ import { VideoIntro       } from "../components/VideoIntro";
 import { BannerHorizontal } from "../components/BannerHorizontal";
 import { info             } from "../components/Dataset";
 import { ProjectBan       } from "../components/ProjectBan";
+import { Our              } from "../components/Our";
+import { WeAre            } from "../components/WeAre";
+import { Footer           } from "../components/Footer";
 import "./index.scss";//*(@)|==>styles;
 
 /* bgProjects */
@@ -19,24 +22,25 @@ const Home =()=> { return ( <>
 <BannerHorizontal props={info}/>
 
 <div className="wrapper">
-<ProjectBan num="1" bg={ban1} title="CapitanejoK12" top="-50px"/>
-<ProjectBan num="2" bg={ban2} title="CapitanejoK8"  top="-50px"/>
-<ProjectBan num="3" bg={ban3} title="CapitanejoK12" top="-40px"/>
-<ProjectBan num="2" bg={ban4} title="Desvío K15"    top="-70px"/>
-<ProjectBan num="2" bg={ban5} title="CapitanejoK12" top="0px"  />
-<ProjectBan num="2" bg={ban6} title="CapitanejoK12" top="0px"  />
+  <ProjectBan num="1" bg={ban1} title="CapitanejoK12" top="-50px"/>
+  <ProjectBan num="2" bg={ban2} title="CapitanejoK8"  top="-50px"/>
+  <ProjectBan num="3" bg={ban3} title="CapitanejoK12" top="-40px"/>
+  <ProjectBan num="2" bg={ban4} title="Desvío K15"    top="-70px"/>
+  <ProjectBan num="2" bg={ban5} title="CapitanejoK12" top="0px"  />
+  <ProjectBan num="2" bg={ban6} title="CapitanejoK12" top="0px"  />
 </div>
 
+<Our/>
+
+<WeAre/>
+
+<Footer/>
 
 
 
 
 
-
-
-
-{/* <h1 style={{marginTop:"990px"}}>OurProjects</h1>
-<h1>Biografia</h1>
+{/*<h1>Biografia</h1>
 <h1>equipo</h1> */}
 
 </> ); }; export { Home };

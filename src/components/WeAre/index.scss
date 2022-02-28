@@ -1,0 +1,22 @@
+.weare-main-container{
+  background-color: rgb(255, 229, 122);
+  justify-content: center;
+  margin: -30px -20px;
+  height: auto;
+  text-shadow: none;
+  padding: 40px;
+}
+
+.weare-contact-container{
+  // outline: 1px solid black;
+  padding-bottom: 40px;
+  font-family: var(--noto);
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1.5rem;
+  p{
+	  font-size: 0.9rem;
+    font-family: Arial;
+    font-weight: 400;
+  }
+}
