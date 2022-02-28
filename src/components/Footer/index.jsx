@@ -1,11 +1,18 @@
 import React from "react";
-import "./index.scss";
+import "./index.scss";//*(@)|==>styles;
 
-const Footer = () => { return ( <>
+const styles = {
+  fontFamily: "var(--lobster)",
+  textShadow: "none",
+  lineHeight: "40px",
+  paddingTop: "40px"
+};
 
-<footer>
+const Footer =()=> { return ( <>
 
-<p style={{fontFamily: "var(--lobster)", textShadow: "none"}}>Footer</p>
+<footer style={styles}>
+
+  <p>Copyright © 2022 The Volminex Company ®, S.L. All rights reserved.</p>
 
 </footer>
 
