@@ -6,7 +6,6 @@
 
 ### Copy my alias
 ```
-Copy my alias
 bejs=bundle exec jekyll serve
 clear=cls
 cn=cmd /c RenameTab $1
