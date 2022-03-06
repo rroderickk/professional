@@ -47,15 +47,37 @@ p{
 .section-video:hover{
   box-shadow: 1px 1px 1px 1px black;
 }
+.videoplayer-button--home{
+  display: inline-block;
+  height: 20px;
+  width: 80px;
+  border-radius: 9px;
+  position: relative;
+  top: -220px;
+  left: 370px;
+  transform: rotate(-90deg);
+  border: 1px solid #201e1c;
+  background-color: black;
+}
+.videoplayer-button--camara{
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 9px;
+  position: relative;
+  top: -230px;
+  left: -344px;
+  border: 1px solid #201e1c;
+  background-color: black;
+}
 button{
   outline: none;
   border: none;
   padding: 1rem 2rem;
   border-radius: 8px;
   width: 10.0rem;
-  margin: 1rem auto;
+  margin: 0rem auto;
   cursor: pointer;
-  margin: 20px;
   box-shadow: 1px 1px 1px 1px salmon;
 }
 button:hover{
