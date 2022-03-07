@@ -1,14 +1,17 @@
-function MediaPlayer(config) {
-    this.media = config.element
-  };
-  MediaPlayer.prototype.play = function(){ this.media.play() };
-
-  MediaPlayer.prototype.togglePlay = function(){
-    if (this.media.paused) { this.play(); }
-    else { this.media.pause(); }
-};
+import { MediaPlayer } from "./MediaPlayer.js";
+import { AutoPlay } from "./Plugins/AutoPlay.js";
 
 const video = document.querySelector("video");
-const player = new MediaPlayer({ element: video })
 const button = document.querySelector("button");
+const buttonReload = document.getElementById("controls");
+const buttonUnmute = document.getElementById("unmute");
+
+const player = new MediaPlayer({ element: video, plugins: [new AutoPlay()]});
+
 button.onclick =()=> player.togglePlay();
+buttonReload.onclick =()=> {
+  player.media.controls!==true? player.media.controls=true : player.media.controls=false;
+};
+
+buttonUnmute.onclick =()=> player.toggleMute();
+

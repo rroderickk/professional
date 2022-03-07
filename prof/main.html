@@ -13,17 +13,22 @@
   <h1 class="main-title">This Video Player</h1>
   <p>An <em><b>extensible</b></em> media player</p>
 </header>
-<section class="videoplayer">
+<main class="videoplayer">
   <video class="section-video">
     <source src="../src//components/VideoIntro/voladura_08.09.17_Trim_Slomo.mp4">
   </video>
-  <div>
+  <div class="smartphone">
     <span class="videoplayer-button--camara"></span>
     <span class="videoplayer-button--home"></span>
   </div>
-  <button>Play/Pause</button>
-</section>
+  <div class="videoplayer-buttons">
+    <button>Play/Pause</button>
+    <button id="controls">Toggle Controls</button>
+    <button id="unmute">unmute</button>
+  </div>
+</main>
 
-<script src="main.js"></script> 
+<script type="module" src="main.js"></script> 
+<script type="module" src="practice1.js"></script> 
 </body>
 </html>

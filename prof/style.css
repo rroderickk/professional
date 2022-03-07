@@ -47,6 +47,7 @@ p{
 .section-video:hover{
   box-shadow: 1px 1px 1px 1px black;
 }
+
 .videoplayer-button--home{
   display: inline-block;
   height: 20px;
@@ -70,20 +71,24 @@ p{
   border: 1px solid #201e1c;
   background-color: black;
 }
+.videoplayer-buttons{
+  justify-content: space-around;
+  width: 100%;
+}
 button{
   outline: none;
   border: none;
   padding: 1rem 2rem;
   border-radius: 8px;
   width: 10.0rem;
-  margin: 0rem auto;
+  margin: 0rem 0.4rem;
   cursor: pointer;
   box-shadow: 1px 1px 1px 1px salmon;
 }
 button:hover{
   background-color: salmon;
   color: white;
-  font-weight: bold;
+  /* font-weight: bold; */
   box-shadow: 1px 1px 1px 1px white;
 }
 @media screen and (min-width: 900px){
