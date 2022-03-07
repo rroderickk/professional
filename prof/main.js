@@ -10,9 +10,10 @@ const player = new MediaPlayer({ element: video, plugins: [new AutoPlay()]});
 
 button.onclick =()=> player.togglePlay();
 buttonReload.onclick =()=> {
-  player.media.controls!==true? player.media.controls=true : player.media.controls=false;
+  // player.media.controls!==true? player.media.controls=true : player.media.controls=false;
+  player.media.controls = !player.media.controls;
 };
 
 buttonUnmute.onclick =()=> {
-  player.media.muted!==true? player.media.muted=true : player.media.muted=false;
+  player.media.muted = !player.media.muted
 }

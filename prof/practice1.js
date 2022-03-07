@@ -71,6 +71,42 @@ console.group("groupTwo");
   console.log("The count is: "+counterPrivate.getCount());
 console.groupEnd("groupTwo");
 
-
 console.group("groupThree");
+console.warn("This se refiere a un objeto. Ese objeto es el que está actualmente ejecutando un pedazo de codigo");
+x();
+console.log(`This is equal to: ${this}`);
+function whoIsThis(){
+  return this
+};
+console.log(`whoIsThis() ${whoIsThis()}`);
+
+function whoIsThisStrict(){
+  "use strict";
+  return this
+};
+console.log(`whoIsThis() ${whoIsThisStrict()}`);
+
+const person ={
+  name: "Javascript",
+  saludar: function(){
+    console.log(`Hey ${this.name} como estas?`)
+  },
+};
+person.saludar();
+const accion = person.saludar;
+// accion();
+
+function Person(name){
+  //// this ={};
+  this.name = name;
+};
+Person.prototype.saludar = function (){
+  console.log(`Me llamo ${this.name} como estas?`)
+};
+
+const Lorena = new Person("Lorena");
+Lorena.saludar();
+
 console.groupEnd("groupThree");
+
+export default x;
