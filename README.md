@@ -4,6 +4,7 @@
 
 [![Deploy](https://vercel.com/button)](https://rroderickk.github.io/professional)
 
+![MediaPlayer](/prof/sc.png)
 ### Copy my alias
 ```
 bejs=bundle exec jekyll serve
