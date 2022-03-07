@@ -13,5 +13,6 @@ buttonReload.onclick =()=> {
   player.media.controls!==true? player.media.controls=true : player.media.controls=false;
 };
 
-buttonUnmute.onclick =()=> player.toggleMute();
-
+buttonUnmute.onclick =()=> {
+  player.media.muted!==true? player.media.muted=true : player.media.muted=false;
+}
