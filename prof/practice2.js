@@ -36,7 +36,7 @@ Jcamina("Sur");
 
 const npa = document.getElementsByClassName("noParesDeAprender");
 Array.prototype.forEach.call(npa, (button) => {
-	button.onclick = () => alert("Nunca pares de aprender!");
+	button.onclick = () => alert("Nunca pares de aprender! =()==> Never stop learn!");
 });
 console.groupEnd("groupFour");
 
@@ -124,8 +124,12 @@ link.saludar();
 
 console.groupEnd("groupFive");
 
-console.group("groupSix");
+console.group("groupSix"); console.warn("Herencia prototypal"); 			x();
 
-console.warn("Herencia prototypal"); x();
+console.log("zelda name: ", zelda.name);
+console.log("zelda.hasOwnProperty(\"name\"): ", zelda.hasOwnProperty("name"));
+console.log("zelda.hasOwnProperty(\"saludar\"): ", zelda.hasOwnProperty("saludar"));
+console.log("zelda.__proto__.hasOwnProperty(\"saludar\"): ", zelda.__proto__.hasOwnProperty("saludar"));
+console.log({zelda})
 
 console.groupEnd("groupSix");

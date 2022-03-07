@@ -42,12 +42,16 @@ p{
   width: 90vw;
   margin: 0 auto;
   box-shadow: 1px 1px 1px 1px white;
+  border: 2px inset #201e1c;
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+  border: 1px solid rgba(255, 255, 255, .3);
+  /* background-color: black; */
 }
 
 .section-video:hover{
   box-shadow: 1px 1px 1px 1px black;
 }
-
+/*//todo fix responsive */
 .videoplayer-button--home{
   display: inline-block;
   height: 20px;
@@ -57,7 +61,9 @@ p{
   top: -220px;
   left: 370px;
   transform: rotate(-90deg);
-  border: 1px solid #201e1c;
+  border: 2px inset #201e1c;
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+  border: 1px solid rgba(255,255,255,.3);
   background-color: black;
 }
 .videoplayer-button--camara{
@@ -68,7 +74,9 @@ p{
   position: relative;
   top: -230px;
   left: -344px;
-  border: 1px solid #201e1c;
+  border: 2px inset #201e1c;
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+  border: 1px solid rgba(255, 255, 255, .3);
   background-color: black;
 }
 .videoplayer-buttons{
