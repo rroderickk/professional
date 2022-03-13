@@ -14,7 +14,8 @@ MediaPlayer.prototype.mute = function(){ this.media.muted=true };
 MediaPlayer.prototype.play = function(){ this.media.play() };
 
 MediaPlayer.prototype.togglePlay = function(){
-  if (this.media.paused) { this.play() } else { this.media.pause() };
+  if (this.media.paused) { this.play() } 
+  else { this.media.pause() };
 };
 
 export { MediaPlayer };
