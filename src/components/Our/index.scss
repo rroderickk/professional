@@ -5,7 +5,7 @@
   margin: 30px -20px;
   width: 100vp;
   height: auto;
-  justify-content: center;
+  text-align: center;
   background-color: rgb(184, 129, 255);
   color: black;
   font-weight: lighter;
@@ -22,10 +22,10 @@
 .our-vision-text{
   color: black;
   text-shadow: none;
-	font-size: 72.5%;
+	font-size: .8rem;
   font-weight: 400;
   font-family: Arial;
   line-height: 1.2rem;
-  text-align: center;
-  padding: 0 40px;
+  text-align: left;
+  padding: 0 80px;
 }

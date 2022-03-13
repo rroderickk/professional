@@ -32,6 +32,11 @@ a{
   margin: 4px 0;
   color: white;
 }
+a:hover{
+  text-decoration: none;
+  color: crimson;
+  text-shadow: 4px 4px 4px osolid crimson;
+}
 img{
   position: relative;
 }
@@ -49,9 +54,10 @@ img{
     min-width: 436px;
   }
   h2{
-    min-width: 230px;
-    padding-top: 40px;
-    padding-right: 80px;
+    padding: 0;
+    min-width: 240px;
+    padding-top: 50px;
+    padding-right: 0px;
   }
   a{ min-width: 230px; }
 }
